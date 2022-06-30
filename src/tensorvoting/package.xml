@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tensorvoting</name>
+  <version>0.0.0</version>
+  <description>The tensorvoting package</description>
+
+  <maintainer email="gaolon@zju.edu.cn">gaolon</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>libpointmatcher_ros</build_depend>
+  <build_depend>libpointmatcher</build_depend>
+  <build_depend>ethzasl_point_cloud_vtk_tools</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>visualization_msgs</build_export_depend>
+  <build_export_depend>libpointmatcher_ros</build_export_depend>
+  <build_export_depend>libpointmatcher</build_export_depend>
+  <build_export_depend>ethzasl_point_cloud_vtk_tools</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>libpointmatcher_ros</exec_depend>
+  <exec_depend>libpointmatcher</exec_depend>
+  <exec_depend>ethzasl_point_cloud_vtk_tools</exec_depend>
+  
+</package>
